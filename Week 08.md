@@ -95,6 +95,7 @@ Test Plan: We will test the new functionality added to the application:
       •	User Input: Enter the command "species UnknownCity".
       •	Expected Output: The application should display a message indicating that no species were found for the specified city.
       •	Actual Output: Verified through manual testing.
+      
 
 ![screenshot](https://github.com/Foram1123/project-python/blob/main/Images/3%20species.PNG)
 
