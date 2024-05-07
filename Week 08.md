@@ -68,10 +68,10 @@ def main():
  # Task 3: List Species in City(Stub)  
  
  Limitations:
-   •	The search_species(city) function currently acts as a stub and does not interact with a real web service to retrieve species data for a given city. This limitation will be addressed in future iterations of the application when integration with a web service is implemented.
+         •	The search_species(city) function currently acts as a stub and does not interact with a real web service to retrieve species data for a given city. This limitation will be addressed in future iterations of the application when integration with a web service is implemented.
 
 Known Bugs:
-   •	There are no known bugs in the implemented functions at the moment.
+         •	There are no known bugs in the implemented functions at the moment.
 
 Test Plan: We will test the new functionality added to the application:
 
