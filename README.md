@@ -6,4 +6,4 @@
 - Tutor: 
 
 ## Weekly Journal Entries
-1. Week 8(Part 1) Task1
+1. Week 8(Part 1) Task1 
