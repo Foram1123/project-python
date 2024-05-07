@@ -100,5 +100,9 @@ Test Plan: We will test the new functionality added to the application:
 
 # Errors:
 
+![screenshot](https://github.com/Foram1123/project-python/blob/main/Images/4.1%20Error.PNG)
 
+![screenshot]()
+
+![screenshot]()
 
