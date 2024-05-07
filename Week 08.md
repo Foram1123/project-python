@@ -77,24 +77,24 @@ Test Plan: We will test the new functionality added to the application:
 
 # 1.	Test 1: Display Animal Species in a City
 
-   •	Input: Call the main() function.
-   •	User Input: Enter the command "species Cairns".
-   •	Expected Output: The application should display a list of species found in the city of Cairns, including their accepted common names and pest status.
-   •	Actual Output: Verified through manual testing.
+      •	Input: Call the main() function.
+      •	User Input: Enter the command "species Cairns".
+      •	Expected Output: The application should display a list of species found in the city of Cairns, including their accepted common names and pest status.
+      •	Actual Output: Verified through manual testing.
    
 # 2.	Test 2: Invalid Command
 
-   •	Input: Call the main() function.
-   •	User Input: Enter an invalid command.
-   •	Expected Output: The application should display an error message indicating that the command is invalid.
-   •	Actual Output: Verified through manual testing.
+      •	Input: Call the main() function.
+      •	User Input: Enter an invalid command.
+      •	Expected Output: The application should display an error message indicating that the command is invalid.
+      •	Actual Output: Verified through manual testing.
    
 # 3.	Test 3: No Species Found
 
-   •	Input: Call the main() function.
-   •	User Input: Enter the command "species UnknownCity".
-   •	Expected Output: The application should display a message indicating that no species were found for the specified city.
-   •	Actual Output: Verified through manual testing.
+      •	Input: Call the main() function.
+      •	User Input: Enter the command "species UnknownCity".
+      •	Expected Output: The application should display a message indicating that no species were found for the specified city.
+      •	Actual Output: Verified through manual testing.
 
 ![screenshot](https://github.com/Foram1123/project-python/blob/main/Images/3%20species.PNG)
 
