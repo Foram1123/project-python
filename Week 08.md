@@ -31,7 +31,7 @@ Known Bugs:
 Test Plan: We have tested the main() function with the following scenarios:
    # 1.	Test 1: Display Help Menu and Exit
    
-      •	Input: Call the main() function.
+      •	Input: call the main() function.
       •	User Input: Enter 'help' and then 'exit'.
       •	Expected Output: The help menu is displayed initially, and then the application exits without errors.
       •	Actual Output: Verified through manual testing.
