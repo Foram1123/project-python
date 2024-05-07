@@ -6,6 +6,4 @@
 - Tutor: 
 
 ## Weekly Journal Entries
-1. [Computer Systems and Applications](./week01.md)
-1. [Computer Networks and the Internet](./week02.md)
-1. [Network Technologies](./week03.md)
+1. Week 8(Part 1) Task1
