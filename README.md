@@ -1,9 +1,5 @@
-# Project-python
-
-## Week-8 (PART-1)
-
-### Task 1 :
-Display Menu
-
-
-
+COIT20245 Introduction To Programming
+Student Name: Foram Prajapati
+Student ID: 12228385
+Campus: Melbourne
+Tutor:
