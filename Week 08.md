@@ -101,13 +101,13 @@ Test Plan: We will test the new functionality added to the application:
 
 # Task 4: List Animal Sightings in City (Stub)
 
-    Limitations:
+Limitations:
       •	The search_sightings(taxonid, city) function currently acts as a stub and does not interact with a real web service to retrieve animal sighting data for a given species in a city. This limitation will be addressed in future iterations of the application when integration with a web service is implemented.
             
-   Known Bugs:
+Known Bugs:
       •	There are no known bugs in the implemented functions at the moment.
 
-   Test Plan: We will test the new functionality added to the application:
+Test Plan: We will test the new functionality added to the application:
    
 # 1.	Test 0: Display Animal Sightings in a City
 
@@ -247,10 +247,10 @@ main()
 
 # Task 5: List Venomous Species in an Area
 
-   Limitations:
+Limitations:
       •	The filter_venomous(species_list) function currently only filters species based on their 'PestStatus' attribute. It does not consider other factors such as location or date. This limitation may be addressed in future iterations if necessary.
       
-   Known Bugs:
+ Known Bugs:
       •	There are no known bugs in the implemented functions at the moment.
       
 Test Plan: We will test the new functionality added to the application:
