@@ -16,3 +16,4 @@ Test Plan: We will test the functionality added to the application:
                 •	Expected Output: The function should return Brisbane's GPS coordinates: {"latitude": -27.4689682, "longitude": 153.0234991}.
                 •	Actual Output: Verified using assert statements.
 
+![screenshot]()
