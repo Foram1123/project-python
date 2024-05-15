@@ -183,6 +183,19 @@ Limitations:
                 •	Expected Output: The function should return None since the city cannot be found.
                 •	Actual Output: Verify the output manually and through assert statements.
 
+![screenshot](https://github.com/Foram1123/project-python/blob/main/Images/Part%202/7.PNG)
+
+# Task 8: Wildlife Module Get Species List  
+
+Limitations:
+    - The function relies on the Queensland wildlife data API, which may have availability and performance limitations.
+    - The accuracy of species data depends on the data provided by the API, which may contain inaccuracies or missing information.
+
+    Test Plan:
+    
+    1. Test the functionality of the get_species_list() function with valid input.
+    2. Test the function's behavior with invalid or out-of-range input.
+
 ![screenshot]()
 
 
