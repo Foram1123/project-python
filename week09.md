@@ -165,4 +165,20 @@ assert gps("Brisbane") == {"latitude": -27.4689682, "longitude": 153.0234991}
 
 main()
 
+## Task 7: GPS Webservice Module
+
+Limitations:
+        •	The gps_coordinate(city) function relies on the Nominatim geocoding web service. Therefore, its availability and response time are subject to the availability and performance of the Nominatim service.
+        •	As of now, the function only considers the first coordinate returned by the Nominatim service. If multiple coordinates are returned, only the first one is used. This may not accurately represent the location in some cases.
+        
+# Test Plan:  
+
+1.	Test 1: Valid City Name
+                •	Input: Call the gps_coordinate() function with a valid city name, such as "Cairns".
+                •	Expected Output: The function should return a dictionary containing latitude and longitude coordinates for the specified city.
+                •	Actual Output: Verify the output manually and through assert statements.
+2.	Test 2: Invalid City Name
+                •	Input: Call the gps_coordinate() function with an invalid city name or non-existent city, such as "NonExistentCity".
+                •	Expected Output: The function should return None since the city cannot be found.
+                •	Actual Output: Verify the output manually and through assert statements.
 
