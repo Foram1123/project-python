@@ -177,8 +177,12 @@ Limitations:
                 •	Input: Call the gps_coordinate() function with a valid city name, such as "Cairns".
                 •	Expected Output: The function should return a dictionary containing latitude and longitude coordinates for the specified city.
                 •	Actual Output: Verify the output manually and through assert statements.
+  	
 2.	Test 2: Invalid City Name
                 •	Input: Call the gps_coordinate() function with an invalid city name or non-existent city, such as "NonExistentCity".
                 •	Expected Output: The function should return None since the city cannot be found.
                 •	Actual Output: Verify the output manually and through assert statements.
+
+![screenshot]()
+
 
