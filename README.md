@@ -7,3 +7,4 @@
 
 ## Weekly Journal Entries
 1. Week 08 - Part1
+2. Week 09 - Part2 
