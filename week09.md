@@ -11,6 +11,7 @@ Known Bugs:
 Test Plan: We will test the functionality added to the application:
 
   1.	Test 1: Check GPS Coordinates for Brisbane
+     
                 •	Input: Call the gps(city) function with "Brisbane".
                 •	Expected Output: The function should return Brisbane's GPS coordinates: {"latitude": -27.4689682, "longitude": 153.0234991}.
                 •	Actual Output: Verified using assert statements.
