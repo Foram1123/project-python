@@ -52,7 +52,7 @@ def get_surveys_by_species(coordinate, radius, taxonid):
         print("Error parsing response from wildlife data API:", e)
         return []
 
-![screenshot]()
+![screenshot](https://github.com/Foram1123/project-python/blob/main/Images/Part3/9.PNG)
 
 # Task 10 Sort : 
 
@@ -63,5 +63,44 @@ Limitation :
     •	Although assert statements are used for testing, the test coverage is incomplete.
 
 ![screenshot](https://github.com/Foram1123/project-python/blob/main/Images/Part3/10.PNG)
+
+Code:
+
+def sort_by_date(sightings):
+    """
+    Returns the sightings sorted by start date.
+    
+    :param sightings: List of sightings dictionaries.
+    :return: List of sightings dictionaries sorted by start date.
+    """
+    sorted_sightings = []
+    remaining_sightings = sightings[:]
+    
+    while len(remaining_sightings) > 0:
+        earliest_sighting = earliest(remaining_sightings)
+        sorted_sightings.append(earliest_sighting)
+        remaining_sightings.remove(earliest_sighting)
+        
+    return sorted_sightings
+
+
+def display_sightings(sightings):
+    """
+    Display a list of animal sightings to the screen, sorted by date.
+
+    :param sightings: List of sightings dictionaries.
+    """
+    sorted_sightings = sort_by_date(sightings)
+    #sorted_sightings =sightings
+    print("*" * 80)
+    print()
+    print("Animal sightings:")
+    for sighting in sorted_sightings:
+        date = sighting["StartDate"]
+        location = sighting["LocalityDetails"]
+        print(f"- Sighted on {date} at {location}")
+    print()
+    print("*" * 80)
+
 
 
