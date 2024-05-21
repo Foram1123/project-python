@@ -52,3 +52,5 @@ def get_surveys_by_species(coordinate, radius, taxonid):
         print("Error parsing response from wildlife data API:", e)
         return []
 
+![screenshot]()
+
